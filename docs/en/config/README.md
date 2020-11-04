@@ -1,0 +1,1 @@
+The current version does not support configuration
