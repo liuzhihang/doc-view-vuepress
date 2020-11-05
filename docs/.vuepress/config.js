@@ -1,6 +1,6 @@
 module.exports = {
     port: "3000",
-    base: "/doc-view/",
+    base: "/",
     markdown: {
         externalLinks: {
             target: "_blank",
