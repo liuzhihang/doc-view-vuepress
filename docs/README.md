@@ -6,12 +6,12 @@ tagline: 文档生成插件
 actionText: 快速开始 →
 actionLink: /guide/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2020-present Evan You
+- title: 无侵入
+  details: 无须添加任何依赖，只需要安装插件。
+- title: 高效率
+  details: 解除繁琐的文档编写，支持复制，支持导出，快速编写项目文档。
+- title: 可配置
+  details: 可通过配置，一定程度上修改自己的文档生成结果。
+footer: MIT Licensed | Copyright © 2020-present liuzhihang
 ---
 

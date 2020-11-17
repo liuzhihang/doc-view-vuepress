@@ -54,11 +54,12 @@ module.exports = {
                         {
                             title: "开始使用",
                             collapsable: false,
-                            children: ["", "start", "install", "config"]
+                            children: ["", "install", "start", "config"]
                         },
                         {
-                            title: "使用说明",
+                            title: "文档说明",
                             collapsable: false,
+                            sidebarDepth: 2,
                             children: [
                                 "controller",
                                 "dubbo"
@@ -67,7 +68,8 @@ module.exports = {
                         {
                             title: "FAQ",
                             collapsable: false,
-                            children: ["faq"]
+                            sidebarDepth: 2,
+                            children: ["faq", "feedback"]
                         }
                     ],
                     "/config/": []

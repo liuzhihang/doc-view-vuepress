@@ -53,6 +53,22 @@
 2. 对象生成列表；
 3. 根据请求是 json 还是 form 生成对应的请求示例。
 
+### 参数类型
+
+参数类型直接通过类文件进行解析。
+
+### 是否必填
+
+当前版本支持 `spring-boot-starter-validation` 、`hibernate-validator`，会判断是否有以下注解：
+
+- `javax.validation.constraints.NotBlank`
+- `javax.validation.constraints.NotEmpty`
+- `javax.validation.constraints.NotNull`
+
+### 说明备注
+
+从字段注释中进行解析
+
 ## 返回参数
 
 支持对象，返回空，返回带泛型方式。这里的泛型仅支持单个泛型且名称为 `T`。
